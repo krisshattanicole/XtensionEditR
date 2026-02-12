@@ -12,6 +12,14 @@ https://addons.mozilla.org/firefox/addon/crxviewer/
 Online demo (select a .crx / .nex / .zip / .xpi from your disk or a URL to try out the viewer):  
 https://robwu.nl/crxviewer/
 
+## Building
+
+```
+npm install
+npm run build
+```
+Build outputs are written to `dist/` (Chrome, Opera, Firefox and web demo bundles).
+
 ## Features
 
 This Chrome extension adds a button to right of the omnibox when a CRX file has been detected.
